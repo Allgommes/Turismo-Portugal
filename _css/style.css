@@ -4,6 +4,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+p {
+    text-align: justify; /* Justifica o texto */
+    margin: 0 20px; /* Adiciona margem à esquerda e à direita */
+    padding: 10px; /* Adiciona preenchimento interno */
+    color: #333; /* Cor do texto */
+}
+
 ul {
     list-style-type: none; /* Remove os marcadores da lista */
     margin: 0; /* Remove a margem padrão */
@@ -48,4 +55,22 @@ center {
     margin: 5px 0; /* Adiciona margem acima e abaixo do elemento centralizado */
     
 
+}
+
+.linha{
+    display: flex;
+}
+.coluna{
+    flex: 33.3%;
+    padding: 5px;
+}
+.coluna:hover{		/* se não funcionar, pode se escrever .coluna img:hover*/
+    opacity: 0.25;
+    transform: scale(1.1); /* aumenta a imagem */
+    transition: all 0.5s ease-in-out; /* tempo de transição */
+
+}
+img{
+width:100%;
+height: 100%;
 }
