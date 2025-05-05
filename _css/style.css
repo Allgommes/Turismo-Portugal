@@ -1,0 +1,51 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    overflow: hidden; /* Garante que os itens da lista não transbordem */
+    background-color: #92b3ce; /* Cor de fundo do menu */
+
+}
+
+li {
+    float: left; /* Alinha os itens da lista horizontalmente */
+}
+
+li a {
+    display: block; /* Faz com que o link ocupe todo o espaço do item da lista */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 14px 16px; /* Espaçamento interno (padding) */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+li a:hover {
+    background-color: #558abd; /* Cor de fundo ao passar o mouse */
+}
+
+img:hover {
+    opacity: 90%; /* Opacidade da imagem ao passar o mouse */
+
+
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth; /* Faz a rolagem suave para âncoras */
+}
+
+center {
+    margin: 5px 0; /* Adiciona margem acima e abaixo do elemento centralizado */
+    
+
+}
