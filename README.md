@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 
+=======
+**25057- Tec Esp Tec Progr Sist Informação (N5)**
+
+Projecto **Turismo Portugal**
+UFCD 5414 - PROGRAMAÇÃO WEB - CLIENT-SIDE
+Formador Kundan Narendra
+Formando Alvaro Faria
+
+```markdown
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
 # 🌍 Portal Turismo Portugal
 
 Este projeto é uma página web simples e informativa sobre os destinos turísticos mais bonitos de Portugal. Foi desenvolvido com HTML e CSS no âmbito da formação **Técnico Especialista em Tecnologias e Programação de Sistemas de Informação (Nível 5)**.
@@ -23,6 +34,7 @@ A página apresenta:
 ## 📁 Estrutura do Projeto
 
 ```
+<<<<<<< HEAD
 Portal-Turismo-Portugal/
 ├── index.html
 ├── _css/
@@ -30,20 +42,42 @@ Portal-Turismo-Portugal/
 ├── _banners/
 │   └── portugal_banner.jpg
 ├── _imagens/
+=======
+
+Portal-Turismo-Portugal/
+├── index.html
+├── \_css/
+│   └── style1.css
+├── \_banners/
+│   └── portugal\_banner.jpg
+├── \_imagens/
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
 │   ├── dourominho.jpg
 │   ├── estremadura.jpg
 │   ├── madeira.jpg
 │   └── trasosmontes.jpg
+<<<<<<< HEAD
 ```
+=======
+
+````
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
 
 ## 🚀 Como Visualizar Localmente
 
 1. Faz o clone do repositório:
    ```bash
    git clone https://github.com/teu-utilizador/Portal-Turismo-Portugal.git
+<<<<<<< HEAD
    ```
 
 2. Abre a pasta do projeto:
+=======
+````
+
+2. Abre a pasta do projeto:
+
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
    ```bash
    cd Portal-Turismo-Portugal
    ```
@@ -61,6 +95,10 @@ Portal-Turismo-Portugal/
 4. Clica em **"Save"**.
 
 5. O GitHub irá gerar automaticamente um link do tipo:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
    ```
    https://teu-utilizador.github.io/Portal-Turismo-Portugal/
    ```
@@ -73,7 +111,11 @@ Portal-Turismo-Portugal/
 
 ## 📽 Vídeo Promocional
 
+<<<<<<< HEAD
 O site inclui um vídeo incorporado diretamente do YouTube sobre o turismo em Portugal:  
+=======
+O site inclui um vídeo incorporado diretamente do YouTube sobre o turismo em Portugal:
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
 🔗 [Cruzeiro no Douro e outras experiências únicas](https://www.youtube.com/embed/O1dgtYkfQZU)
 
 ## 👨‍🎓 Formação
@@ -88,7 +130,19 @@ Projeto realizado no âmbito da disciplina de Desenvolvimento Web (Client-Side) 
 
 Este é um projeto educacional e pode ser expandido futuramente com mais funcionalidades como:
 
+<<<<<<< HEAD
 - Responsividade para dispositivos móveis;
 - Interatividade com JavaScript;
 - Ligação a base de dados com PHP/MySQL ou backend em Node.js;
 - Multilinguismo (ex: português e inglês).
+=======
+* Responsividade para dispositivos móveis;
+* Interatividade com JavaScript;
+* Ligação a base de dados com PHP/MySQL ou backend em Node.js;
+* Multilinguismo (ex: português e inglês).
+
+```
+
+---
+
+>>>>>>> 2fd08bbaf43cb981929dbf157d5b85653b8e154b
