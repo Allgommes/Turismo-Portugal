@@ -6,6 +6,29 @@
     <link rel="shortcut icon" href="_banners/favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="_css/style.css" type="text/css" media="screen" title="style" charset="utf-8">
     <title>Contactos</title>
+
+    <style>
+        form input, form select, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+form input[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+ 
+form input[type="submit"]:hover {
+  background-color: #218838;
+}
+    </style>
+
+
 </head>
 <body>
     <img src="_banners/portugal_banner.jpg" alt="Logo do Portal Turismo Portugal" style="display: block; margin: 0 auto; width: 100%;"/>
@@ -35,6 +58,46 @@
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </form>
+<hr>
+<!--formulario acessivel-->
+
+<h2>Informar Turismo</h2>
+    <form name="turismoForm" onsubmit="return validarTurismo();">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="text" name="email" placeholder="Email" required>
+    <select name="destino" required>
+        <option value="">Escolha o destino</option>
+        <option>Lisboa</option>
+        <option>Porto</option>
+        <option>Algarve</option>
+        <option>Madeira</option>
+    </select>
+        <textarea name="mensagem" placeholder="Mensagem adicional"></textarea>
+            <input type="submit" value="Solicitar">
+    </form>
+
+
+
+<script>
+   function validarEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function validarTurismo() {
+  const f = document.turismoForm;
+  if (!validarEmail(f.email.value)) {
+    alert("Email inválido");
+    return false;
+  }
+  if (f.destino.value === '') {
+    alert("Escolha um destino");
+    return false;
+  }
+  return true;
+}
+
+</script>
+
 
         <h4 align="center">Portal Turismo Portugal</h4>
         <h4 align="center">25057- Tec Esp Tec Progr Sist Informação (N5)</h4>
